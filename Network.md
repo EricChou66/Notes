@@ -4,7 +4,7 @@
 
   - Three way handshake:
 
-    Client&emsp;&emsp;&emsp;&emsp;Server\
+    Client&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Server\
 \
     Send SYN(seq=x)  --------------------------->  receive SYN(seq=x)\
     receive SYN(seq=y, ACK=x+1) <--------  send SYN(seq=y, ACK=x+1)\
