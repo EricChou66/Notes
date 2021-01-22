@@ -33,3 +33,6 @@
 - ICMP
   - used in `traceroute` and `ping`
   - ICMP packet is encapsulated in an IPv4 packet.
+- ARP
+  - A communication protocol used to get target link layer address(such as MAC)
+  - Associated with a given internet layer address, typically an IPv4 address.
