@@ -4,10 +4,10 @@
 
   - Three way handshake:
 
-    Client 														Server
-
-    Send SYN(seq=x)  --------------------------->  receive SYN(seq=x)
-    receive SYN(seq=y, ACK=x+1) <--------  send SYN(seq=y, ACK=x+1)
+    Client 														Server\
+\
+    Send SYN(seq=x)  --------------------------->  receive SYN(seq=x)\
+    receive SYN(seq=y, ACK=x+1) <--------  send SYN(seq=y, ACK=x+1)\
     send ACK(ACK=y+1) <-----------------------  receive ACK(ACK=y+1)			
 
   - What's inside a TCP packet?
