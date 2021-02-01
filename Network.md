@@ -8,7 +8,7 @@
     |---------------------------|----------|-------------------------|
     |Send SYN(seq=x)            | -------> | receive SYN(seq=x)      |
     |receive SYN(seq=y, ACK=x+1)| <------- | send SYN(seq=y, ACK=x+1)|
-    |send ACK(ACK=y+1)          | <------- | receive ACK(ACK=y+1)    |	
+    |send ACK(ACK=y+1)          | -------> | receive ACK(ACK=y+1)    |	
 
   - What's inside a TCP packet?
     source port, destination port, sequence number, ack number(if ACK set), data offset, reserved, flags, windows size, checksum...etc.
